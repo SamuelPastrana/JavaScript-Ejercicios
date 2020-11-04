@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Javascript: Strings</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+         //CONCATENAR TEXTO
+            console.log('Hola ' + 'Mundo')
+         // TEMPLATE LITERALS
+            const name = 'Celine'
+            console.log(`Hola ${name}, buenas tardes`)
+        //  TYPEOF
+            console.log(typeof name)
+        //  .LENGHT
+            console.log(name.length) 
+        // .INCLUDES()
+            console.log(name.includes('li'))
+        // .SLICE(START,END)
+            console.log(name.slice(2,4))
+        // .REPLACE('ESTE TEXTO', 'POR ESTE OTRO')
+            console.log(name.replace('ne','nne'))
+        // .TRIM()
+            const text = '      Samuel Pastrana Bedoya     '
+            console.log(text.trim())
+        //  .SPLIT(',')
+            const geolocation = 'Carrera 84, 34B, 43, TERCER PISO'
+            console.log(geolocation.split(','))
+        </script>
+    </body>
+</html>
